@@ -1,0 +1,11 @@
+1. Used 'set' instead of 'export' in windows.
+2. Add ethers
+	https://faucets.chain.link/rinkeby
+3. Error: Mnemonic is invalid or undefined
+	- install dotenv
+	- add the following line in code
+		require('dotenv').config();
+	- in .env
+		ALCHEMY_KEY="gpGmjNVLYLrNljVZRcx9qnls0ZC8MinL"
+		MNEMONIC="donkey network grant chalk hurry reject immune mention begin dry love air"
+		NETWORK="rinkeby"

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
 const MNEMONIC = process.env.MNEMONIC;
@@ -31,6 +32,7 @@ module.exports = {
       network_id: "*", // Match any network id
     },
     rinkeby: {
+      networkCheckTimeout: 10000,
       provider: function () {
         return new HDWalletProvider(MNEMONIC, rinkebyNodeUrl);
       },
