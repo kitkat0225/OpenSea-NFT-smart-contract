@@ -1,3 +1,6 @@
+https://docs.opensea.io/docs/1-structuring-your-smart-contract
+https://docs.opensea.io/docs/opensea-integration
+
 1. Used 'set' instead of 'export' in windows.
 2. Add ethers
 	https://faucets.chain.link/rinkeby
